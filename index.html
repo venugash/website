@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titanic Marden Palaceimg  - Sri Lanka</title>
+	<link rel="stylesheet" type="text/css" href="new.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+	<header >
+		<div class="header" id="logo_srink"  >
+		
+		<img id="img_shrink" style="margin-right: -15px;cursor: pointer; width: 15%; height: 120px;margin-left: 53px;
+    margin-top: 4px;" src="logos\1200px-MGM_Grand_logo.png">
+		<button class="header_btn">Hotel</button>
+		<button class="header_btn">Rooms</button>
+		<button class="header_btn">Dinning</button>
+		<button class="header_btn">Attractions</button>
+		<button class="header_btn">Contact Us</button>
+		
+	</div>
+	</header>
+
+	<div  >
+		<img class="hero_image" src="images\hero_image.jpg">
+		<img class="hero_image" src="images\Presidential Suite16.jpg">
+		<img class="hero_image" src="images\01 (1).jpg">
+		<img class="hero_arrow_btn" src="icons\arrow-down-brown.png" id="btn_arrow1" onclick="movedwn()"> 
+		<img class="hero_left_btn" src="icons\arrow-left-brown.png" id="btn_arrow" onclick="plusDivs(-1)">
+		<img class="hero_right_btn" src="icons\arrow-right-brown.png" id="btn_arrow" onclick="plusDivs(1)">
+	</div>
+
+	<div class="heading" id="head01">
+	<h1>Welcome to Titanic Marden Palace</h1>
+	<h2 style="color: black;font-size: 28px;">Discover our 5-star beach resort in Fiji Coral Coast</h2>
+	<p class="head_p" >Ideally situated along a white sandy beach with crystal clear lagoons in the heart of the Coral Coast, the 5 star resort Warwick Fiji offers an authentic Fijian traditional experience. <span id="dots">...</span><span id="more">Discover spectacular area attractions nearby, including popular beaches, a golf course, shopping and outdoor recreation like jet skis and river rafting. The central resort location also makes it easy to the breath-taking Biausevu Waterfall, indulgent Hot Springs of Naviti and thrilling Sigatoka River Safari, as well as family fun at Kula Wild Park, shopping in Biausevu Village and exploring Robinson Crusoe Island. </span><br>
+		<button style="background-color: transparent; border-width: 0;font-size: 18px;    margin-top: 22px;
+    font-family: monospace;"onclick="myFunction()"   id="myBtn">Read More</button>
+</p>
+	</div>
+
+
+<div style="float: left;margin-top:31px;" >
+	<div class="room_p">
+		<h1 >Accomodation</h1>
+		<p style="margin-top: 28px;">
+			Rooms are designed to accommodate up to two adults and three kids, 12 years and under, or three adults. Enjoy verdant garden views from the ground floor of the Suva wing from furnished balconies that open onto superb landscaping. Spread out in 26 square metres decorated with light colours and contrasting dark wood furnishings with two comfortable double beds and one single bed. Indulgent bathrooms feature name brand bath amenities and shower or shower over bathtub. Interconnecting rooms are available on request and are based on availability at the time of making the reservation. <br>
+			<button class="read_btn">Read More &nbsp;&nbsp;&nbsp;<i style='font-size:18px' class='fas'>&#xf0a9;</i></button>
+		</p>
+	</div>
+
+	<div class="room_img">
+		<img src="images\980\ROOMS\King Suite.jpg" width="90%">
+	</div>
+	
+</div>
+
+
+<div style="float: left;margin-top:15px;" >
+	
+	<div class="din_img">
+		<img src="images\980\F&B\Banquet (2).jpg" width="92%" height="414px" >
+	</div>
+	
+	<div class="din_p">
+		<h1 >Dinning</h1>
+		<p style="margin-top: 28px;">
+			From ocean view seating to romantic overwater dinners, Warwick Fiji has just what you envision for tropical resort dining. Five distinctive restaurants and six inviting bars welcome you with a variety of taste-tempting dining experiences. From the unparalleled private island setting of the Wicked Walu Seafood Restaurant, to the relaxed ocean views of Bula Brasserie, you’ll find plenty of delicious options for meals during your stay. <br>
+
+			<button class="read_btn">Read More &nbsp;&nbsp;&nbsp;<i style='font-size:18px' class='fas'>&#xf0a9;</i></button>
+		</p>
+	</div>
+	
+</div>
+
+<div>
+	
+</div>
+	<span>
+		<h1>SPECIAL OFFERS</h1>
+		<img style="float: left; z-index: 1;" src="images/980/Family Room1 (1).jpg" width="100%" height="400px" style="opacity: 1">
+	</span>
+	
+
+
+
+
+<footer>
+<h2>FIND OUT MORE</h2>
+	
+<p><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram (opens in new window)"><svg class="icon icon-instagram" style="font-size: 30px; color:#91897E; "><use xlink:href="#icon-instagram"></use></svg></a></p></br>
+<!-- SnapWidget -->
+<iframe src="https://snapwidget.com/embed/643122" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:90%; height:300px; margin:0 auto;"></iframe></div>
+	
+</footer>
+
+
+<script type="text/javascript">
+	function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+	}
+
+</script>
+<script type="text/javascript">
+	window.onscroll=function()
+	{
+		scrollFunction()
+	};
+function scrollFunction()
+{
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
+   {
+    document.getElementById("logo_srink").style.backgroundColor = "darkslateblue";
+    document.getElementById("img_shrink").style.width = "10%";
+    document.getElementById("img_shrink").style.height = "80px";
+  } 
+  else 
+  {
+    document.getElementById("logo_srink").style.backgroundColor = "transparent";
+    document.getElementById("img_shrink").style.width = "15%";
+    document.getElementById("img_shrink").style.height = "120px";
+  }
+}
+
+</script>
+<script type="text/javascript">
+	var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("hero_image");
+  if (n > x.length) 
+  	{
+  		slideIndex = 1
+  		
+  	}
+  if (n < 1) 
+  	{
+  		slideIndex = x.length
+  	}
+  for (i = 0; i < x.length; i++) 
+  {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+
+}
+
+</script>
+<script type="text/javascript">
+	function movedwn()
+	{
+		document.getElementById("btn_arrow1").href="#head01";
+	    
+	}
+	
+</script>
+</body>
+</html>

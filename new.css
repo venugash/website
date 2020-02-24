@@ -1,0 +1,202 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+body
+{
+	background-color: white;
+	padding: 10px;
+	font-family: "Gilroy",sans-serif;
+	
+}
+
+.header
+{
+	float: left;
+	
+	display: flex;
+	padding: 10px;
+	width:96.5%;
+	height: 98px;
+	
+	position: fixed;
+	z-index: 200;
+}
+.header_btn
+{
+	background-color: #d4af37;
+	width: 202px;
+    height: 43px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 26px;
+    margin-right: 10px;
+	font-size: 17px;
+	font-family: "Gilroy",sans-serif;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	background-attachment: s
+}
+.header_btn:hover
+{
+	background-color: #B7950B;
+	color: #FEF9E7;
+}
+
+.hero_image
+{
+	width: 100%;
+	margin-top: 0px;
+	
+}
+
+.hero_arrow_btn
+{
+	float: left;
+	position: relative;
+    z-index: 101;
+    margin-top: -49px;
+    margin-left: 722px;
+    width: 37px;
+    cursor: pointer;
+}
+
+.hero_left_btn
+{
+	float: left;
+	margin-left: 36px;
+    margin-top: -259px;
+    width: 40px;
+	position: relative;
+    z-index: 101;
+    cursor: pointer;
+}
+
+.hero_right_btn
+{
+	float: right;
+	margin-right: 36px;
+    margin-top: -259px;
+    width: 40px;
+	position: relative;
+    z-index: 101;
+ 
+  
+    cursor: pointer;
+}
+.heading
+{
+	text-align: center;
+	margin-top: 41px;
+	font-size: 23px;
+	color: #B7950B;
+}
+
+.head_p
+{
+	font-size: 18px;
+	margin-left: 187px;
+    margin-right: 187px;
+    line-height: 1.7;
+
+}
+
+.room_p
+{
+	background-color:#FEF9E7;
+	color: #B7950B;
+	width: 42%;
+	float: left;
+	font-size: 16px;
+	height: 350px;
+	margin-left: 59px;
+    padding: 32px;
+	text-align: justify;
+	line-height: 1.7;
+    font-size: 16px;
+}
+.room_img
+{
+	width: 50%;
+	float: left;
+}
+
+.read_btn
+{
+	background-color: darkslateblue;
+	width: 143px;
+    height: 30px;
+    color: white;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: none;
+	border:none;
+	cursor: pointer;
+	margin-top: 37px;
+	text-align: left;
+	padding: 6px;
+}
+.read_btn:hover
+{
+	background-color: #B7950B;
+	color: #FEF9E7;
+}
+
+.din_p
+{
+	background-color:#FEF9E7;
+	color: #B7950B;
+	width: 41%;
+	float: left;
+	font-size: 16px;
+	height: 350px;
+	margin-left: -59px;
+    padding: 32px;
+	text-align: justify;
+	line-height: 1.7;
+    font-size: 16px;
+}
+.din_img
+{
+	width: 50%;
+	float: left;
+	margin-left: 58px;
+}
+
+.offer_mar
+{
+	width: 100%;
+	width: 200%;
+}
+
+.slideshow
+{
+	float: left;
+	margin-left: 85px;
+}
+.slide_h3
+{
+	float: left;
+}
+
+.bg-img {
+    background-image: url("images/980/Family Room1 (1).jpg") ;
+    width:100%;
+    max-width:100%;
+    height: 200px;
+    background-position:center;
+    background-size:cover;
+    position: fixed;
+    margin:none;
+}
+
+.call_out
+{
+	background-image: url("images/980/Family Room1 (1).jpg");
+	float: left;
+	text-align: center;
+	z-index: 2;
+}
