@@ -7,9 +7,8 @@ html
 body
 {
 	background-color: white;
-	padding: 10px;
-	font-family: "Gilroy",sans-serif;
 	
+	font-family: "Gilroy",sans-serif;
 }
 
 .header
@@ -30,7 +29,7 @@ body
 	width: 187px;
     height: 43px;
     color: black;
-    margin-left:16px;
+   margin-left: 58px;
     margin-top: 26px;
     margin-right: 10px;
 	font-size: 17px;
@@ -43,7 +42,7 @@ body
 }
 .header_btn:hover
 {
-	background-color: darkslateblue;
+	background-color: teal;
 	color: #FEF9E7;
 }
 
@@ -109,7 +108,7 @@ body
 {
 	background-color: #FEF9E7;
     color: #B7950B;
-    width: 42%;
+    width: 51.35%;
     float: left;
     font-size: 16px;
     height: 350px;
@@ -121,15 +120,22 @@ body
 }
 .room_img
 {
-	width: 50%;
+	width: 44.5%;
 	float: left;
+}
+
+hr
+{
+	color: darkslateblue;
+	border-width: 2px;
+	border-color: darkslateblue;
 }
 
 .room_p1
 {
 	background-color: #FEF9E7;
     color: #B7950B;
-    width: 48%;
+   width: 51.35%;
     float: left;
     font-size: 16px;
     height: 350px;
@@ -138,16 +144,17 @@ body
     text-align: justify;
     line-height: 1.7;
     font-size: 16px;
+    height: 402px;
 }
 .room_img2
 {
-	width: 618px;
+	width: 44.5%;
 	float: left;
 }
 
 .read_btn
 {
-	background-color: darkslateblue;
+	background-color: teal;
 	width: 143px;
     height: 30px;
     color: white;
@@ -220,4 +227,15 @@ body
 	float: left;
 	text-align: center;
 	z-index: 2;
+}
+
+.footer1
+{
+	background-color: black;
+	height: 200px;
+	color: white;
+	float: left;
+	width: 100%;
+	margin-top: 11px;
+    margin-left: 36px;
 }
