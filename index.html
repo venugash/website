@@ -10,13 +10,13 @@
 	<header >
 		<div class="header" id="logo_srink"  >
 		
-		<img id="img_shrink" style="margin-right: -15px;cursor: pointer; width: 15%; height: 120px;margin-left: 53px;
+		<img id="img_shrink" style="margin-right: -15px;cursor: pointer; width: 15%; height: 120px;   margin-left: 12px;;
     margin-top: 4px;" src="logos\1200px-MGM_Grand_logo.png">
-		<button class="header_btn">Hotel</button>
+		<div id="header_btn"><button class="header_btn">Hotel</button>
 		<button class="header_btn">Rooms</button>
 		<button class="header_btn">Dinning</button>
 		<button class="header_btn">Attractions</button>
-		<button class="header_btn">Contact Us</button>
+		<button class="header_btn">Contact Us</button></div>
 		
 	</div>
 	</header>
@@ -50,19 +50,17 @@
 	</div>
 
 	<div class="room_img">
-		<img src="images\980\ROOMS\King Suite.jpg" width="90%">
+		<img src="images\980\ROOMS\King Suite.jpg" width="698px">
 	</div>
 	
 </div>
 
-
 <div style="float: left;margin-top:15px;" >
-	
-	<div class="din_img">
-		<img src="images\980\F&B\Banquet (2).jpg" width="92%" height="414px" >
+	<div class="room_img2">
+		<img src="images\980\F&B\SHR_0134.jpg" width="618px">
 	</div>
 	
-	<div class="din_p">
+	<div class="room_p1">
 		<h1 >Dinning</h1>
 		<p style="margin-top: 28px;">
 			From ocean view seating to romantic overwater dinners, Warwick Fiji has just what you envision for tropical resort dining. Five distinctive restaurants and six inviting bars welcome you with a variety of taste-tempting dining experiences. From the unparalleled private island setting of the Wicked Walu Seafood Restaurant, to the relaxed ocean views of Bula Brasserie, you’ll find plenty of delicious options for meals during your stay. <br>
@@ -70,11 +68,10 @@
 			<button class="read_btn">Read More &nbsp;&nbsp;&nbsp;<i style='font-size:18px' class='fas'>&#xf0a9;</i></button>
 		</p>
 	</div>
-	
 </div>
 
-<div>
-	
+
+
 </div>
 	<span>
 		<h1>SPECIAL OFFERS</h1>
@@ -122,15 +119,18 @@ function scrollFunction()
 {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50)
    {
-    document.getElementById("logo_srink").style.backgroundColor = "darkslateblue";
+    document.getElementById("logo_srink").style.backgroundColor = "#B7950B";
+    document.getElementById("logo_srink").style.width = "1295px";
     document.getElementById("img_shrink").style.width = "10%";
     document.getElementById("img_shrink").style.height = "80px";
+    document.getElementById("header_btn").style.marginLeft="33px";
   } 
   else 
   {
     document.getElementById("logo_srink").style.backgroundColor = "transparent";
     document.getElementById("img_shrink").style.width = "15%";
     document.getElementById("img_shrink").style.height = "120px";
+    document.getElementById("header_btn").style.marginLeft="13px";
   }
 }
 

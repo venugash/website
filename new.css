@@ -26,23 +26,24 @@ body
 }
 .header_btn
 {
-	background-color: #d4af37;
-	width: 202px;
+	background-color: transparent;
+	width: 187px;
     height: 43px;
-    color: white;
-    margin-left: 40px;
+    color: black;
+    margin-left:16px;
     margin-top: 26px;
     margin-right: 10px;
 	font-size: 17px;
-	font-family: "Gilroy",sans-serif;
 	border:none;
 	border-radius: 5px;
 	cursor: pointer;
-	background-attachment: s
+	font-family: serif;
+    font-size: larger;
+    font-weight: 600;
 }
 .header_btn:hover
 {
-	background-color: #B7950B;
+	background-color: darkslateblue;
 	color: #FEF9E7;
 }
 
@@ -59,7 +60,7 @@ body
 	position: relative;
     z-index: 101;
     margin-top: -49px;
-    margin-left: 722px;
+   margin-left: 50%;
     width: 37px;
     cursor: pointer;
 }
@@ -106,21 +107,41 @@ body
 
 .room_p
 {
-	background-color:#FEF9E7;
-	color: #B7950B;
-	width: 42%;
-	float: left;
-	font-size: 16px;
-	height: 350px;
-	margin-left: 59px;
+	background-color: #FEF9E7;
+    color: #B7950B;
+    width: 42%;
+    float: left;
+    font-size: 16px;
+    height: 350px;
+    margin-left: 1px;
     padding: 32px;
-	text-align: justify;
-	line-height: 1.7;
+    text-align: justify;
+    line-height: 1.7;
     font-size: 16px;
 }
 .room_img
 {
 	width: 50%;
+	float: left;
+}
+
+.room_p1
+{
+	background-color: #FEF9E7;
+    color: #B7950B;
+    width: 48%;
+    float: left;
+    font-size: 16px;
+    height: 350px;
+    margin-left: 0px;
+    padding: 32px;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 16px;
+}
+.room_img2
+{
+	width: 618px;
 	float: left;
 }
 
@@ -135,7 +156,7 @@ body
 	font-family: none;
 	border:none;
 	cursor: pointer;
-	margin-top: 37px;
+	margin-top: 11px;
 	text-align: left;
 	padding: 6px;
 }
