@@ -6,8 +6,13 @@ html
 
 body
 {
-	background-color: white;
-	
+	background: #FFFFFF;
+    font-size: .80em; 
+    margin-left:2px auto;
+    margin-right: 2px;
+    padding: 0px;
+    height: 780px;
+	width: 100%;
 	font-family: Open sans;
 }
 
@@ -245,4 +250,25 @@ a
 	font-size: 18px;
 	padding: 8px;
 	font-family: Open sans;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:1366px) {
+  .header_btn {
+    margin-left: 24px;* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .room_p
+  {
+  	width: 50.35%;
+  	height: 298px;
+  }
+  .room_p1
+  {
+  	width: 50.35%;
+  	height: 342px;
+  }
+  .footer2
+  {
+  	margin-left: 34%;
+  }
 }
