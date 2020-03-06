@@ -12,7 +12,7 @@ body
     margin-right: 2px;
     padding: 0px;
     height: 780px;
-	width: 100%;
+	width: 98.2%;
 	font-family: Open sans;
 }
 
@@ -36,13 +36,13 @@ body
     color: black;
    margin-left: 58px;
     margin-top: 26px;
-    margin-right: 10px;
+    margin-right: 7px;
 	font-size: 17px;
 	border:none;
 	border-radius: 5px;
 	cursor: pointer;
 	font-family: Open sans;
-    font-size: larger;
+    font-size: 15px;
     font-weight: 600;
 }
 .header_btn:hover
@@ -102,7 +102,7 @@ body
 
 .head_p
 {
-	font-size: 18px;
+	font-size: 14px;
 	margin-left: 187px;
     margin-right: 187px;
     line-height: 1.7;
@@ -121,7 +121,7 @@ body
     padding: 32px;
     text-align: justify;
     line-height: 1.7;
-    font-size: 16px;
+    font-size: 12.8px;
 }
 .room_img
 {
@@ -148,7 +148,7 @@ hr
     padding: 32px;
     text-align: justify;
     line-height: 1.7;
-    font-size: 16px;
+    font-size: 12.8px;
     height: 402px;
 }
 .room_img2
@@ -163,7 +163,7 @@ hr
 	width: 143px;
     height: 30px;
     color: white;
-	font-size: 17px;
+	font-size: 12.8px;
 	font-weight: bold;
 	font-family:Open sans;
 	border:none;
@@ -184,7 +184,7 @@ hr
 	color: #B7950B;
 	width: 41%;
 	float: left;
-	font-size: 16px;
+	font-size: 12.8px;
 	height: 350px;
 	margin-left: -59px;
     padding: 32px;
@@ -241,7 +241,7 @@ hr
 	color: white;
 	float: left;
 	width: 100%;
-	margin-top: 11px;
+	margin-top: -34px;
 }
 a
 {
@@ -255,17 +255,17 @@ a
 /* Use a media query to add a break point at 800px: */
 @media screen and (max-width:1366px) {
   .header_btn {
-    margin-left: 24px;* The width is 100%, when the viewport is 800px or smaller */
+    margin-left: 22px;* The width is 100%, when the viewport is 800px or smaller */
   }
   .room_p
   {
   	width: 50.35%;
-  	height: 298px;
+  	height: 286px;
   }
   .room_p1
   {
   	width: 50.35%;
-  	height: 342px;
+  	height: 330px;
   }
   .footer2
   {
